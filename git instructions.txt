@@ -1,12 +1,11 @@
 git init       //make local git repo
 git add .	   // add all files in dir . to the local repo
-git commit -a -m "massage with commit"
+git commit -a -m "massage with commit"   //-a all files  -m massage
 
 git remote     //display all remote repo
-git remote -v  //display all remote repo details
+git remote -v  //display all remote repo details -v mean verification  
 
 git push origin master   // name of remote repo + branch
-git pull origin master
 
 git remote add nameUwant  https://www.server.com/usernam/repoToAdd
 
@@ -17,4 +16,12 @@ git clone  https://www.server.com/usernam/repoTocloneing
  git log -2     //it will show u last 2 local commit
  
  
+ git branch   nameOFbranch   //make a new branch
+ git checkout nameOFbranch   //switch to new branch
  
+ 
+//update ur repo with remote repo
+ git fetch  origin massage
+ git merge  origin/master
+//or shortly
+ git pull origin master
