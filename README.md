@@ -5,4 +5,7 @@
       
 <em>simple em</em>
 
+<a href="https://www.google.com">Google</a>
+
+[google](https://www.google.come)
 
