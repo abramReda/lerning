@@ -25,3 +25,9 @@ git clone  https://www.server.com/usernam/repoTocloneing
  git merge  origin/master
 //or shortly
  git pull origin master
+ 
+ 
+ //To clear your repo, use:
+ git rm -r --cached . 
+ 
+ 
