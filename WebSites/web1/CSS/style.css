@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+boady{
+	font-family: "Roboto",sans-serif;
+}
+
+.slider{
+	height:689px;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.9)) , url(images/slider-01.jpg);
+	background-size: 100% 100%;
+	font-family: "Roboto",sans-serif;
+	text-transform: capitalize;	
+}
+
+.navbar
+{
+    background-color: rgba(0,0,0,0.2);
+    overflow: auto;
+    height: 65px;
+        
+}
+
+.navbar ul 
+
+{
+    
+    list-style: none;
+}
+
+.navbar ul li 
+{
+    
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    margin-top: 13px
+}
+
+.navbar ul li a 
+{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: segoe ui light;
+    transition-duration: 0.7s;
+}
+
+.navbar ul li a:hover
+{
+    color: firebrick;
+    transition-duration: 0.7s;
+}
+
+.contnav
+{
+    
+    margin-right:80px ;
+}
+
+.navbar ul .logo
+{
+    
+  float: left;
+    margin-left: 100px;
+  margin-top: 13px
+   
+}
+
+.navbar ul li a span 
+{
+    color: #ff305b;
+    font-size: 22px;
+    font-weight:bolder;
+    font-family:  "Roboto",sans-serif;
+}
+
